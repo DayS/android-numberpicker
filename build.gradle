@@ -1,5 +1,6 @@
 buildscript {
   repositories {
+    mavenLocal()
     mavenCentral()
   }
 
@@ -13,6 +14,7 @@ allprojects {
   version = '1.0.1'
 
   repositories {
+    mavenLocal()
     mavenCentral()
   }
 
